@@ -1,11 +1,42 @@
 /* styles for index.html */
 
-.logo {
+a{
+  margin: 5px 20px 0 20px;
+}
+a:link{
+  color: #000;
+  text-decoration: none;
+  display: inline
+}
+a:visited{
+  color: grey;
+  opacity: 0.75;
+  text-decoration: none;
+}
+a:hover{
+  text-decoration: underline;
+}
+
+.logo{
   width: 250px;
 }
-.block {
+.block{
   text-align: center;
+  top: 50%;
+  transform: translateY(50%);
 }
-.button {
+.button{
 
+}
+.r{
+  float: right
+}
+.l{
+  float: left
+}
+
+
+#navbar{
+  text-decoration: none;
+  font: 12px helvetica;
 }
